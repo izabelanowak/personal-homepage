@@ -22,7 +22,7 @@ export const Title = styled.header`
 export const List = styled.ul`
     padding: 32px 0 0 32px;
     margin: 0;
-    color: #0366D6;
+    color: ${({ theme }) => theme.colors.lightMode.mainAccent};
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 `;
@@ -35,5 +35,6 @@ export const Content = styled.p`
     font-size: 18px;
     color: ${({ theme }) => theme.colors.lightMode.textSecondary};
     margin: 0;
+    letter-spacing: 0.05em;
 `;
 
