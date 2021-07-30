@@ -5,10 +5,9 @@ export const StyledSection = styled.section`
     grid-template-columns: 1fr;
     background-color: ${({ theme }) => theme.colors.lightMode.white};
     padding: 32px;
-    margin: 72px auto 0 auto;
+    margin: 72px 0;
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
     border-radius: 4px;
-    max-width: 1216px;
 `;
 
 export const Title = styled.header`
@@ -24,15 +23,19 @@ export const List = styled.ul`
     margin: 0;
     color: ${({ theme }) => theme.colors.lightMode.mainAccent};
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 8px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+        grid-template-columns: 1fr;
+    }
 `;
 
 export const Item = styled.li`
-    font-size: 24px;
+
 `;
 
 export const Content = styled.p`
-    font-size: 18px;
     color: ${({ theme }) => theme.colors.lightMode.textSecondary};
     margin: 0;
     letter-spacing: 0.05em;
