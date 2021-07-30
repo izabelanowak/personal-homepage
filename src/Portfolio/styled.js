@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     text-align: center;
 `;
 
-export const Logo = styled.svg`
+export const Logo = styled.img`
     margin: 0 0 13px 0;
 `;
 
