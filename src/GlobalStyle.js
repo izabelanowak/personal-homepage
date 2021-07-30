@@ -15,7 +15,8 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Inter', sans-serif;
         max-width: 1216px;
         margin: 0 auto;
-        background-color: ${({ theme }) => theme.colors.lightMode.lightGray};
+        font-size: 18px;
         letter-spacing: 0.05em;
+        background-color: ${({ theme }) => theme.colors.lightMode.lightGray};
     }
 `;
