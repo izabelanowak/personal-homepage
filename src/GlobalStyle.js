@@ -17,6 +17,6 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0 auto;
         font-size: 18px;
         letter-spacing: 0.05em;
-        background-color: ${({ theme }) => theme.colors.lightMode.lightGray};
+        background-color: ${({ theme }) => theme.colors.lightMode.background};
     }
 `;

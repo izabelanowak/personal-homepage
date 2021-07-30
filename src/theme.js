@@ -6,12 +6,14 @@ export const theme = {
             white: "#FFFFFF",
             mainAccent: "#0366D6",
             lightGray: "#E5E5E5",
+            background: "#FBFBFE",
         },
         darkMode: {
             textPrimary: "#FFFFFF",
             textSecondary: "#FFFFFF",
             white: "#FFFFFF",
             mainAccent: "#2188FF",
+            background: "#252525",
         }
     },
 
