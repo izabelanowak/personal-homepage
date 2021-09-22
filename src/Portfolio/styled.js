@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
 
 export const Logo = styled(GitHubLogoLM)`
     margin: 0 0 13px 0;
+    fill: ${({ theme }) => theme.colors.lightMode.mainAccent};
 `;
 
 export const Title = styled.h2`
