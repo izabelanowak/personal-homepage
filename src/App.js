@@ -2,7 +2,7 @@ import { skillset, whatToLearnNext } from "./lists";
 import Portfolio from "./Portfolio";
 import Section from "./Section";
 import Header from "./Header";
-
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         list={whatToLearnNext}
       />
       <Portfolio />
+      <Footer/>
     </>
   );
 };
