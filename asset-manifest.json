@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.f7f98225.chunk.js",
-    "main.js.map": "/static/js/main.f7f98225.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d2857264.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d2857264.js.map",
-    "static/js/2.a1ef2e80.chunk.js": "/static/js/2.a1ef2e80.chunk.js",
-    "static/js/2.a1ef2e80.chunk.js.map": "/static/js/2.a1ef2e80.chunk.js.map",
-    "static/js/3.5ca1aff8.chunk.js": "/static/js/3.5ca1aff8.chunk.js",
-    "static/js/3.5ca1aff8.chunk.js.map": "/static/js/3.5ca1aff8.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.a1ef2e80.chunk.js.LICENSE.txt": "/static/js/2.a1ef2e80.chunk.js.LICENSE.txt"
+    "main.js": "/personal-homepage/static/js/main.593fb3db.chunk.js",
+    "main.js.map": "/personal-homepage/static/js/main.593fb3db.chunk.js.map",
+    "runtime-main.js": "/personal-homepage/static/js/runtime-main.a0ce1657.js",
+    "runtime-main.js.map": "/personal-homepage/static/js/runtime-main.a0ce1657.js.map",
+    "static/js/2.a7cd2f10.chunk.js": "/personal-homepage/static/js/2.a7cd2f10.chunk.js",
+    "static/js/2.a7cd2f10.chunk.js.map": "/personal-homepage/static/js/2.a7cd2f10.chunk.js.map",
+    "static/js/3.163437d6.chunk.js": "/personal-homepage/static/js/3.163437d6.chunk.js",
+    "static/js/3.163437d6.chunk.js.map": "/personal-homepage/static/js/3.163437d6.chunk.js.map",
+    "index.html": "/personal-homepage/index.html",
+    "static/js/2.a7cd2f10.chunk.js.LICENSE.txt": "/personal-homepage/static/js/2.a7cd2f10.chunk.js.LICENSE.txt",
+    "static/media/GitHubLM.e9fc5f44.svg": "/personal-homepage/static/media/GitHubLM.e9fc5f44.svg",
+    "static/media/LinkedinLM.fd0fc1ba.svg": "/personal-homepage/static/media/LinkedinLM.fd0fc1ba.svg",
+    "static/media/darkModeButton.165bbd71.svg": "/personal-homepage/static/media/darkModeButton.165bbd71.svg",
+    "static/media/iza.9f23c59e.jpg": "/personal-homepage/static/media/iza.9f23c59e.jpg",
+    "static/media/lightModeButton.52c00c0f.svg": "/personal-homepage/static/media/lightModeButton.52c00c0f.svg",
+    "static/media/message.5e558b62.svg": "/personal-homepage/static/media/message.5e558b62.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2857264.js",
-    "static/js/2.a1ef2e80.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.f7f98225.chunk.js"
+    "static/js/runtime-main.a0ce1657.js",
+    "static/js/2.a7cd2f10.chunk.js",
+    "static/js/main.593fb3db.chunk.js"
   ]
 }
