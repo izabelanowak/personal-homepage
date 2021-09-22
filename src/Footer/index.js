@@ -9,7 +9,9 @@ const Footer = () => (
         footer={true}
         extraContent={
             <>
-                <GitHubLogo />
+                <a href="https://github.com/izabelanowak" rel="noreferrer noopener" target="_blank">
+                    <GitHubLogo />
+                </a>
                 <LinkedinLogo />
             </>
         }
