@@ -34,8 +34,8 @@ export const skillset = [
 export const whatToLearnNext = [
     "JS Classes",
     "Node.js",
-    "Cos",
-    "Cos",
-    "Cos",
-    "Cos",
+    "TypeScript",
+    "Sass/Less",
+    "Bootstrap",
+    "jQuery",
 ];
