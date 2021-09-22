@@ -1,10 +1,11 @@
 import styled from "styled-components";
+import { ReactComponent as GitHubLogoLM } from "../icons/GitHubLM.svg";
 
 export const Wrapper = styled.div`
     text-align: center;
 `;
 
-export const Logo = styled.img`
+export const Logo = styled(GitHubLogoLM)`
     margin: 0 0 13px 0;
 `;
 

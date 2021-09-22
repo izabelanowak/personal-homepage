@@ -1,11 +1,10 @@
 import { Title, Body, Logo, Paragraph, Wrapper } from "./styled";
 import Teil from "./Teil";
-import GitHubLogo from '../GitHubLogo.svg';
 
 const Portfolio = () => {
     return (
         <Wrapper>
-            <Logo src={GitHubLogo} alt="GitHub Logo" />
+            <Logo/>
             <Title>Portfolio</Title>
             <Paragraph>My recent projects</Paragraph>
             <Body>
