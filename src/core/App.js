@@ -3,11 +3,12 @@ import Portfolio from "../common/Portfolio";
 import Section from "../common/Section";
 import Header from "../common/Header";
 import Footer from "../common/Footer";
+import Projects from "../features/homepage/Projects";
 
 function App() {
   return (
     <>
-      <Header/>
+      <Header />
       <Section
         title="My skillset includes"
         list={skillset}
@@ -16,8 +17,10 @@ function App() {
         title="What I want to learn next"
         list={whatToLearnNext}
       />
-      <Portfolio />
-      <Footer/>
+      <Portfolio>
+        <Projects />
+      </Portfolio>
+      <Footer />
     </>
   );
 };
