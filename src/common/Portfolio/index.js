@@ -1,25 +1,13 @@
 import { Title, Body, Logo, Paragraph, Wrapper } from "./styled";
-import Teil from "./Teil";
 
-const Portfolio = () => {
+const Portfolio = ({ children }) => {
     return (
         <Wrapper>
-            <Logo/>
+            <Logo />
             <Title>Portfolio</Title>
             <Paragraph>My recent projects</Paragraph>
             <Body>
-                <Teil
-                    title="Project 1"
-                    description="sialalalallalala"
-                    demoLink="#"
-                    codeLink="#"
-                />
-                <Teil
-                    title="Project 2"
-                    description="sialalalallalala"
-                    demoLink="#"
-                    codeLink="#"
-                />
+                {children}
             </Body>
         </Wrapper>
     );
