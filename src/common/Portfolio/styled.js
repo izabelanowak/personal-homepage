@@ -3,6 +3,7 @@ import { ReactComponent as GitHubLogoLM } from "../icons/GitHubLM.svg";
 
 export const Wrapper = styled.div`
     text-align: center;
+    margin-bottom: 120px;
 `;
 
 export const Logo = styled(GitHubLogoLM)`

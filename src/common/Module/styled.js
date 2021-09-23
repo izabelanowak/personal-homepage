@@ -1,8 +1,10 @@
-import styled, {css} from "styled-components";
+import styled, { css } from "styled-components";
 
 
 export const Wrapper = styled.div`
-
+    ${({ footer }) => footer && css`
+        margin-bottom: 100px;
+    `}
 `;
 
 export const Text = styled.p`

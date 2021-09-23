@@ -1,7 +1,7 @@
 import { Description, Extra, Text, Title, Wrapper } from "./styled";
 
 const Module = ({ text, title, description, extraContent, footer }) => (
-    <Wrapper>
+    <Wrapper footer={footer}>
         <Text>{text}</Text>
         <Title footer={footer}>{title}</Title>
         <Description footer={footer}>{description}</Description>
