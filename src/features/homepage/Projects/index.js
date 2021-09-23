@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Error } from "../../../common/Error";
 import { StatusChecker } from "../../../common/StatusChecker";
 import Teil from "../../../common/Teil";
 import { fetchRepos, selectError, selectLoading, selectRepos } from "../reposSlice";
