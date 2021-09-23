@@ -35,4 +35,6 @@ export const Label = styled.span`
 
 export const Link = styled.a`
     color: ${({ theme }) => theme.colors.lightMode.mainAccent};
+    text-decoration: none;
+    line-height: 1.4;
 `;
