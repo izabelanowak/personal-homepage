@@ -5,7 +5,7 @@ export const skillset = [
     "CSS Grid",
     "CSS FlexBox",
     "Media Queries",
-    "JavaScript: ES6+",
+    "JavaScript (ES6+)",
     "Immutability",
     "React",
     "Create-react-app",
