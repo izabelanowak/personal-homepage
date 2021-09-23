@@ -19,4 +19,8 @@ export const GlobalStyle = createGlobalStyle`
         letter-spacing: 0.05em;
         background-color: ${({ theme }) => theme.colors.lightMode.background};
     }
+
+    a {
+        text-decoration: none;
+    }
 `;
