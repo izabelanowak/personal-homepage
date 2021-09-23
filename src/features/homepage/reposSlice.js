@@ -8,15 +8,15 @@ const reposSlice = createSlice({
     error: false,
   },
   reducers: {
-    fetchrepos: (state) => {
+    fetchRepos: (state) => {
       state.loading = true;
     },
-    fetchreposSuccess: (state, { payload: repos }) => {
-      state.repos = repos.results;
+    fetchReposSuccess: (state, { payload: data }) => {
+      state.repos = data;
       state.loading = false;
       state.error = false;
     },
-    fetchreposError: (state) => {
+    fetchReposError: (state) => {
       state.loading = false;
       state.error = true;
     },
