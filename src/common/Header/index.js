@@ -1,7 +1,7 @@
 import { Button } from "../Button";
 import Module from "../Module";
 import { Image, StyledHeader, Wrapper } from "./styled";
-import messageLogo from "./message.svg";
+import { ReactComponent as MessageLogo } from "./message.svg";
 import photo from "./iza.jpg";
 import ToggleModeButton from "./ModeSwitcher";
 
@@ -15,7 +15,9 @@ const Header = () => (
         title="Izabela Nowak"
         description="Hi! I'm future Frontend Developer with passion about CSS, React and in love with Styled-components."
         extraContent={
-          <Button><img src={messageLogo} alt="Message Logo" />Hire me</Button>
+          <a href="mailto: nowak.izabela.ni@gmail.com">
+            <Button><MessageLogo />Hire me</Button>
+          </a>
         }
       />
     </Wrapper>
