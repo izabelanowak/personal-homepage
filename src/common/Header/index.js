@@ -3,8 +3,7 @@ import Module from "../Module";
 import { Image, StyledHeader, Wrapper } from "./styled";
 import messageLogo from "./message.svg";
 import photo from "./iza.jpg";
-import ToggleModeButton from "./ToggleModeButton";
-
+import ToggleModeButton from "./ModeSwitcher";
 
 const Header = () => (
   <StyledHeader>
