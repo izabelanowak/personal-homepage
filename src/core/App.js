@@ -1,8 +1,8 @@
-import { skillset, whatToLearnNext } from "./lists";
-import Portfolio from "./Portfolio";
-import Section from "./Section";
-import Header from "./Header";
-import Footer from "./Footer";
+import { skillset, whatToLearnNext } from "../lists";
+import Portfolio from "../common/Portfolio";
+import Section from "../common/Section";
+import Header from "../common/Header";
+import Footer from "../common/Footer";
 
 function App() {
   return (
