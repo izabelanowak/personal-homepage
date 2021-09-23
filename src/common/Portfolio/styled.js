@@ -23,10 +23,3 @@ export const Paragraph = styled.p`
     line-height: 28px;
     margin: 0 0 24px 0;
 `;
-
-export const Body = styled.div`
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 32px;
-    text-align: left;
-`;

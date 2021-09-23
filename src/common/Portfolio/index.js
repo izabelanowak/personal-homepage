@@ -1,4 +1,4 @@
-import { Title, Body, Logo, Paragraph, Wrapper } from "./styled";
+import { Title, Logo, Paragraph, Wrapper } from "./styled";
 
 const Portfolio = ({ children }) => {
     return (
@@ -6,9 +6,7 @@ const Portfolio = ({ children }) => {
             <Logo />
             <Title>Portfolio</Title>
             <Paragraph>My recent projects</Paragraph>
-            <Body>
-                {children}
-            </Body>
+            {children}
         </Wrapper>
     );
 };
