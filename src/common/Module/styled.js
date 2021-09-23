@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const Wrapper = styled.div`
   ${({ footer }) => footer && css`
-      margin-bottom: 100px;
+    margin-bottom: 100px;
   `}
 `;
 
@@ -21,8 +21,12 @@ export const Title = styled.header`
   color: ${({ theme }) => theme.colors.lightMode.textPrimary};
 
   ${({ footer }) => footer && css`
-      font-size: 32px;
-      line-height: 39px;
+    font-size: 32px;
+    line-height: 39px;
+
+    &:hover {
+      color: ${({ theme }) => theme.colors.lightMode.mainAccent};
+    }
   `}
 `;
 
@@ -33,9 +37,9 @@ export const Description = styled.p`
   color: ${({ theme }) => theme.colors.lightMode.textSecondary};
 
   ${({ footer }) => footer && css`
-      font-size: 18px;
-      line-height: 25px;
-      color: ${({ theme }) => theme.colors.lightMode.textPrimary};
+    font-size: 18px;
+    line-height: 25px;
+    color: ${({ theme }) => theme.colors.lightMode.textPrimary};
   `}
 `;
 
