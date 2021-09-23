@@ -11,7 +11,9 @@ export const Error = () => {
         Sorry, failed to load Github projects.
         You can check them directly on Github.
       </Info>
-      <Button error={true}>Go to Github</Button>
+      <a href="https://github.com/izabelanowak" rel="noreferrer noopener" target="_blank">
+        <Button error={true}>Go to Github</Button>
+      </a>
     </Wrapper>
   );
 };
