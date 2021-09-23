@@ -2,7 +2,7 @@ import { call, takeLatest, put, delay } from "redux-saga/effects";
 import { getApiData } from "./getApiData";
 import { fetchRepos, fetchReposError, fetchReposSuccess } from "./reposSlice";
 
-function* fetchListHandler() {
+function* fetchReposHandler() {
   try {
     yield delay(1000);
     const data = yield call(getApiData);
@@ -13,5 +13,5 @@ function* fetchListHandler() {
 }
 
 export function* watchFetchRepos() {
-  yield takeLatest(fetchRepos.type, fetchListHandler);
+  yield takeLatest(fetchRepos.type, fetchReposHandler);
 }
