@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Button = styled.button`
     font-weight: 600;
@@ -21,4 +21,8 @@ export const Button = styled.button`
     &:active {
         box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
     }
+
+    ${({ error }) => error && css`
+        grid-gap: 0;
+    `}
 `;
