@@ -5,9 +5,11 @@ const Teil = ({ title, description, demoLink, codeLink }) => (
     <Header>
       {title}
     </Header>
-    <Description>
-      {description}
-    </Description>
+    {description ?
+      <Description>
+        {description}
+      </Description>
+      : ""}
     <Label>
       Demo:
       {" "}
