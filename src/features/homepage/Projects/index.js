@@ -6,8 +6,6 @@ import { Wrapper } from "./styled";
 import { fetchRepos, selectError, selectLoading, selectRepos } from "../reposSlice";
 
 const Projects = () => {
-  const demoBaseLink = "https://izabelanowak.github.io/";
-
   const dispatch = useDispatch();
   const isLoading = useSelector(selectLoading);
   const isError = useSelector(selectError);
@@ -25,7 +23,7 @@ const Projects = () => {
             key={project.id}
             title={project.name.replaceAll('-' , ' ')}
             description={project.description}
-            demoLink={`${demoBaseLink}${project.name}`}
+            demoLink={project.homepage}
             codeLink={project.html_url}
           />
         )}
