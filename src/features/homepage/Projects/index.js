@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { StatusChecker } from "../../../common/StatusChecker";
 import Teil from "../../../common/Teil";
-import { fetchRepos, selectError, selectLoading, selectRepos } from "../reposSlice";
 import { Wrapper } from "./styled";
+import { fetchRepos, selectError, selectLoading, selectRepos } from "../reposSlice";
 
 const Projects = () => {
   const demoBaseLink = "https://izabelanowak.github.io/";
@@ -23,7 +23,7 @@ const Projects = () => {
         {repos.map(project =>
           <Teil
             key={project.id}
-            title={project.name}
+            title={project.name.replaceAll('-' , ' ')}
             description={project.description}
             demoLink={`${demoBaseLink}${project.name}`}
             codeLink={project.html_url}
