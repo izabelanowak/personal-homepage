@@ -14,14 +14,14 @@ const Teil = ({ title, description, demoLink, codeLink }) => (
       Demo:
       {" "}
       <Link href={demoLink} target="_blank" rel="noreferrer noopener">
-        {demoLink}
+        {demoLink.slice(8,-1)}
       </Link>
     </Label>
     <Label>
       Code:
       {" "}
       <Link href={codeLink} target="_blank" rel="noreferrer noopener">
-        {codeLink}
+        {codeLink.slice(8)}
       </Link>
     </Label>
   </Wrapper>
