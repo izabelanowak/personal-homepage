@@ -1,4 +1,5 @@
 import { skillset, whatToLearnNext } from "../lists";
+import ModeSwitcher from "../common/ModeSwitcher";
 import Portfolio from "../common/Portfolio";
 import Section from "../common/Section";
 import Header from "../common/Header";
@@ -8,6 +9,7 @@ import Projects from "../features/homepage/Projects";
 function App() {
   return (
     <>
+      <ModeSwitcher />
       <Header />
       <Section
         title="My skillset includes"
