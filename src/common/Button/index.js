@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const Button = styled.button`
   font-weight: 600;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   padding: 12px 16px;
   background: ${({ theme }) => theme.colors.lightMode.mainAccent};
   color: ${({ theme }) => theme.colors.lightMode.white};
@@ -25,4 +25,8 @@ export const Button = styled.button`
   ${({ error }) => error && css`
       grid-gap: 0;
   `}
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 18px;
+  }
 `;

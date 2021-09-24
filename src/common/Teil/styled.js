@@ -12,25 +12,45 @@ export const Wrapper = styled.div`
   &:hover{
       border: 6px solid rgba(3, 102, 214, 0.2);
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    padding: 24px;
+    width: 100%;
+  }
 `;
 
 export const Header = styled.h3`
   margin: 0;
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 1.2;
   color: ${({ theme }) => theme.colors.lightMode.mainAccent};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 16px;
+  }
 `;
 
 export const Description = styled.p`
   margin: 24px 0;
-  line-height: 25px;
+  line-height: 1.4;
   color: ${({ theme }) => theme.colors.lightMode.textSecondary};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 14px;
+    margin: 16px 0;
+  }
 `;
 
 export const Label = styled.span`
   margin: 8px 0;
   color: ${({ theme }) => theme.colors.lightMode.textSecondary};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 14px;
+    line-height: 1.2;
+  }
 `;
 
 export const Link = styled.a`

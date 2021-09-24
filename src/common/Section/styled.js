@@ -8,14 +8,24 @@ export const StyledSection = styled.section`
   margin: 72px 0;
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    margin: 48px 0;
+    padding: 16px;
+  }
 `;
 
 export const Title = styled.header`
   font-weight: 900;
   font-size: 30px;
   padding: 0;
-  padding-bottom: 15px;
+  padding-bottom: 16px;
   border-bottom: 1px solid ${({ theme }) => theme.colors.lightMode.lightGray};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 18px;
+    padding-bottom: 12px;
+  }
 `;
 
 export const List = styled.ul`
@@ -28,6 +38,7 @@ export const List = styled.ul`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
       grid-template-columns: 1fr;
+      padding: 12px 0 0 16px;
   }
 `;
 
@@ -36,6 +47,10 @@ export const Item = styled.li``;
 export const Content = styled.p`
   color: ${({ theme }) => theme.colors.lightMode.textSecondary};
   margin: 0;
-  letter-spacing: 0.05em;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 14px;
+    line-height: 1.2;
+  }
 `;
 

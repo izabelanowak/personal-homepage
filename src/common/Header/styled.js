@@ -6,6 +6,13 @@ export const StyledHeader = styled.header`
   grid-template-columns: auto 1fr;
   grid-gap: 66px;
   align-items: center ;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    grid-template-columns: 1fr;
+    margin-top: 32px;
+    grid-gap: 0;
+    width: 100%;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -18,4 +25,9 @@ export const Image = styled.img`
   max-height: 400px;
   display: block;
   border-radius: 250px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    max-width: 136px;
+    max-height: 136px;
+  }
 `;

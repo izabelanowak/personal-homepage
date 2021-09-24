@@ -11,6 +11,12 @@ export const GitHubLogo = styled(GitHubLogoLM)`
   &:hover {
     fill: ${({ theme }) => theme.colors.lightMode.mainAccent};
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+  }
 `;
 
 export const LinkedinLogo = styled(LinkedinLogoLM)`
@@ -21,5 +27,11 @@ export const LinkedinLogo = styled(LinkedinLogoLM)`
 
   &:hover {
     fill: ${({ theme }) => theme.colors.lightMode.mainAccent};
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
   }
 `;

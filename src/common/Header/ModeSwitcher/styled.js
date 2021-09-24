@@ -13,6 +13,10 @@ export const Label = styled.span`
   align-items: center;
   text-transform: uppercase;
   color: ${({ theme }) => theme.colors.lightMode.textSecondary};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+      display: none;
+    }
 `;
 
 export const Button = styled.button`

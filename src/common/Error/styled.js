@@ -7,6 +7,10 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   max-width: 420px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    margin-top: 32px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -14,10 +18,18 @@ export const Title = styled.h2`
   font-size: 24px;
   line-height: 1.2;
   color: ${({ theme }) => theme.colors.lightMode.textPrimary};
+  
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 16px;
+  }
 `;
 
 export const Info = styled.p`
   font-size: 20px;
   line-height: 1.4;
   color: ${({ theme }) => theme.colors.lightMode.textPrimary};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 14px;
+  }
 `;
