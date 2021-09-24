@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
+		overflow-y: scroll;
   }
 
   *,
@@ -18,6 +19,8 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 18px;
     letter-spacing: 0.05em;
     background-color: ${({ theme }) => theme.colors.lightMode.background};
+    padding: 16px;
+		overflow-wrap: anywhere;
   }
 
   a {
