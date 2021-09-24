@@ -27,5 +27,6 @@ export const Image = styled.img`
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     max-width: 136px;
     max-height: 136px;
+    margin-bottom: 12px;
   }
 `;
