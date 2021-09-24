@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-  margin-top: 115px;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: 66px;
@@ -9,7 +8,6 @@ export const StyledHeader = styled.header`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     grid-template-columns: 1fr;
-    margin-top: 32px;
     grid-gap: 0;
     width: 100%;
   }
