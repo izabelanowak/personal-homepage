@@ -5,10 +5,11 @@ import Section from "../common/Section";
 import Header from "../common/Header";
 import Footer from "../common/Footer";
 import Projects from "../features/homepage/Projects";
+import { MainContainer } from "../common/MainContainer";
 
 function App() {
   return (
-    <>
+    <MainContainer>
       <ModeSwitcher />
       <Header />
       <Section
@@ -23,7 +24,7 @@ function App() {
         <Projects />
       </Portfolio>
       <Footer />
-    </>
+    </MainContainer>
   );
 };
 
