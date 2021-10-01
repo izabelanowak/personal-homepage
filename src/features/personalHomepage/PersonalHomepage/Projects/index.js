@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { StatusChecker } from "../../../../common/StatusChecker";
-import Teil from "../../../../common/Teil";
+import { StatusChecker } from "../StatusChecker";
+import Teil from "../Teil";
 import { Wrapper } from "./styled";
 import { fetchRepositiories, selectError, selectLoading, selectRepositiories } from "../../personalHomepageSlice";
 
