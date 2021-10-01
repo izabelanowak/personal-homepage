@@ -1,6 +1,6 @@
 import { call, takeEvery, put, delay } from "redux-saga/effects";
 import { getApiData } from "./getApiData";
-import { fetchRepos, fetchReposError, fetchReposSuccess } from "./reposSlice";
+import { fetchRepos, fetchReposError, fetchReposSuccess } from "./personalHomepageSlice";
 
 function* fetchReposHandler() {
   try {
