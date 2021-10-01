@@ -4,6 +4,7 @@ const colorNames = {
   slateGray: "#6E7E91",
   mercury: "#E5E5E5",
   mineShaft: "#252525",
+  mineShaftTransparent: "rgba(54, 54, 54, 0.72)",
   dodgerBlue: "#2188FF",
   scinceBlue: "#0366D6",
 };
@@ -24,6 +25,7 @@ export const themeLight = {
     mainAccent: colorNames.scinceBlue,
     lightGray: colorNames.mercury,
     background: colorNames.whiteLilac,
+    sectionBackground: colorNames.mineShaftTransparent,
   },
 };
 
