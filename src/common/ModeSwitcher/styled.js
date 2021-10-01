@@ -12,7 +12,7 @@ export const Label = styled.span`
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.colors.lightMode.textSecondary};
+  color: ${({ theme }) => theme.colors.textSecondary};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
       display: none;

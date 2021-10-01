@@ -15,7 +15,7 @@ export const Text = styled.p`
   font-size: 12px;
   line-height: 1.3;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.colors.lightMode.textSecondary};
+  color: ${({ theme }) => theme.colors.textSecondary};
   margin: 0 0 12px 0;
 
   ${({ footer }) => footer && css`
@@ -35,7 +35,7 @@ export const Title = styled.header`
   font-weight: 900;
   font-size: 38px;
   line-height: 1.2;
-  color: ${({ theme }) => theme.colors.lightMode.textPrimary};
+  color: ${({ theme }) => theme.colors.textPrimary};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 22px;
@@ -46,7 +46,7 @@ export const Title = styled.header`
     line-height: 1.2;
 
     &:hover {
-      color: ${({ theme }) => theme.colors.lightMode.mainAccent};
+      color: ${({ theme }) => theme.colors.mainAccent};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
@@ -59,7 +59,7 @@ export const Description = styled.p`
   margin: 36px 0 32px 0;
   font-size: 20px;
   line-height: 1.4;
-  color: ${({ theme }) => theme.colors.lightMode.textSecondary};
+  color: ${({ theme }) => theme.colors.textSecondary};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 17px;
@@ -68,7 +68,7 @@ export const Description = styled.p`
 
   ${({ footer }) => footer && css`
     font-size: 18px;
-    color: ${({ theme }) => theme.colors.lightMode.textPrimary};
+    color: ${({ theme }) => theme.colors.textPrimary};
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
       font-size: 14px;

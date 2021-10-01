@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
 
 export const Logo = styled(GitHubLogoLM)`
   margin: 0 0 12px 0;
-  fill: ${({ theme }) => theme.colors.lightMode.mainAccent};
+  fill: ${({ theme }) => theme.colors.mainAccent};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     width: 32px;

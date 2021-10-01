@@ -6,10 +6,10 @@ export const GitHubLogo = styled(GitHubLogoLM)`
   width: 48px;
   height: 48px;
   margin-right: 24px;
-  fill: ${({ theme }) => theme.colors.lightMode.textPrimary};
+  fill: ${({ theme }) => theme.colors.textPrimary};
 
   &:hover {
-    fill: ${({ theme }) => theme.colors.lightMode.mainAccent};
+    fill: ${({ theme }) => theme.colors.mainAccent};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
@@ -23,10 +23,10 @@ export const LinkedinLogo = styled(LinkedinLogoLM)`
   width: 48px;
   height: 48px;
   margin-right: 24px;
-  fill: ${({ theme }) => theme.colors.lightMode.textPrimary};
+  fill: ${({ theme }) => theme.colors.textPrimary};
 
   &:hover {
-    fill: ${({ theme }) => theme.colors.lightMode.mainAccent};
+    fill: ${({ theme }) => theme.colors.mainAccent};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {

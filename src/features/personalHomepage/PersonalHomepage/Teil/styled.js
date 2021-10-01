@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: ${({ theme }) => theme.colors.lightMode.white};
+  background-color: ${({ theme }) => theme.colors.white};
   border: 6px solid rgba(209, 213, 218, 0.3);
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;
@@ -25,7 +25,7 @@ export const Header = styled.h3`
   font-weight: bold;
   font-size: 24px;
   line-height: 1.2;
-  color: ${({ theme }) => theme.colors.lightMode.mainAccent};
+  color: ${({ theme }) => theme.colors.mainAccent};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 16px;
@@ -35,7 +35,7 @@ export const Header = styled.h3`
 export const Description = styled.p`
   margin: 24px 0;
   line-height: 1.4;
-  color: ${({ theme }) => theme.colors.lightMode.textSecondary};
+  color: ${({ theme }) => theme.colors.textSecondary};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 14px;
@@ -45,7 +45,7 @@ export const Description = styled.p`
 
 export const Label = styled.span`
   margin: 8px 0;
-  color: ${({ theme }) => theme.colors.lightMode.textSecondary};
+  color: ${({ theme }) => theme.colors.textSecondary};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 14px;
@@ -54,6 +54,6 @@ export const Label = styled.span`
 `;
 
 export const Link = styled.a`
-  color: ${({ theme }) => theme.colors.lightMode.mainAccent};
+  color: ${({ theme }) => theme.colors.mainAccent};
   line-height: 1.4;
 `;
