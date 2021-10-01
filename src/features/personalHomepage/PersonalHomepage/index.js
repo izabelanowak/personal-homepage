@@ -1,5 +1,5 @@
 import { skillset, whatToLearnNext } from "./lists";
-import ModeSwitcher from "../../../common/ModeSwitcher";
+import ThemeSwitcher from "../../../common/ThemeSwitcher";
 import Portfolio from "./Portfolio";
 import Section from "./Section";
 import Header from "./Header";
@@ -12,7 +12,7 @@ const PersonalHomepage = () => {
   return (
     <>
       <MainContainer>
-        <ModeSwitcher />
+        <ThemeSwitcher />
         <Header />
         <Section
           title="My skillset includes"
