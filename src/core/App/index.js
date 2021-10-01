@@ -1,30 +1,20 @@
-import { skillset, whatToLearnNext } from "../../lists";
-import ModeSwitcher from "../../common/ModeSwitcher";
-import Portfolio from "../../common/Portfolio";
-import Section from "../../common/Section";
-import Header from "../../common/Header";
-import Footer from "../../common/Footer";
-import Projects from "../../features/personalHomepage/Projects";
-import { MainContainer } from "../../common/MainContainer";
+import { Normalize } from "styled-normalize";
+import { ThemeProvider } from "styled-components";
+import { GlobalStyle } from './core/App/GlobalStyle';
+import { themeDark, themeLight } from "./core/App/theme";
+import PersonalHomepage from "../../features/personalHomepage/PersonalHomepage";
+import { useSelector } from "react-redux";
+import { selectIsDarkTheme } from "../../common/themeSlice";
 
 function App() {
+  const isDarkTheme = useSelector(selectIsDarkTheme);
+  
   return (
-    <MainContainer>
-      <ModeSwitcher />
-      <Header />
-      <Section
-        title="My skillset includes"
-        list={skillset}
-      />
-      <Section
-        title="What I want to learn next"
-        list={whatToLearnNext}
-      />
-      <Portfolio>
-        <Projects />
-      </Portfolio>
-      <Footer />
-    </MainContainer>
+    <ThemeProvider theme={isDarkTheme ? themeDark : themeLight}>
+      <Normalize />
+      <GlobalStyle />
+      <PersonalHomepage />
+    </ThemeProvider>
   );
 };
 
