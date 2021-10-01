@@ -3,6 +3,7 @@ import Module from "../Module";
 import { Image, StyledHeader, Wrapper } from "./styled";
 import { ReactComponent as MessageIcon } from "./message.svg";
 import photo from "./iza.jpg";
+import { email } from "../personalData";
 
 const Header = () => (
   <StyledHeader>
@@ -13,7 +14,7 @@ const Header = () => (
         title="Izabela Nowak"
         description="Hi! I'm future Frontend Developer with passion about CSS, React and in love with Styled-components."
         extraContent={
-          <a href="mailto: nowak.izabela.ni@gmail.com">
+          <a href={`mailto: ${email}`}>
             <Button><MessageIcon />Hire me</Button>
           </a>
         }
