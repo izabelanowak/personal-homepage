@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import { Normalize } from "styled-normalize";
 import { Provider } from "react-redux";
 import { ThemeProvider } from "styled-components";
-import { GlobalStyle } from './core/GlobalStyle';
+import { GlobalStyle } from './core/App/GlobalStyle';
 import App from './core/App';
 import reportWebVitals from './reportWebVitals';
-import { theme } from "./core/theme";
+import { theme } from "./core/App/theme";
 import store from './core/store';
 
 ReactDOM.render(
