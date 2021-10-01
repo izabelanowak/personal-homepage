@@ -1,42 +1,38 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const reposSlice = createSlice({
-  name: "repos",
+const personalHomepageSlice = createSlice({
+  name: "personalHomepage",
   initialState: {
-    repos: [],
+    repositiories: [],
     loading: true,
     error: false,
   },
   reducers: {
-    fetchRepos: (state) => {
+    fetchRepositories: (state) => {
       state.loading = true;
     },
-    fetchReposSuccess: (state, { payload: data }) => {
-      state.repos = data;
+    fetchRepositoriesSuccess: (state, { payload: repositiories }) => {
+      state.repositiories = repositiories;
       state.loading = false;
       state.error = false;
     },
-    fetchReposError: (state) => {
+    fetchRepositoriesError: (state) => {
       state.loading = false;
       state.error = true;
-    },
-    resetState: (state) => {
-      state.repos = [];
-      state.loading = true;
-      state.error = false;
     },
   },
 });
 
 export const {
-  fetchRepos,
-  fetchReposError,
-  fetchReposSuccess,
-  resetState,
-} = reposSlice.actions;
+  fetchRepositories,
+  fetchRepositoriesError,
+  fetchRepositoriesSuccess,
+} = personalHomepageSlice.actions;
 
-export const selectRepos = (state) => state.repos.repos;
-export const selectLoading = (state) => state.repos.loading;
-export const selectError = (state) => state.repos.error;
+const selectPersonalHomepageState = state => state.personalHomepage;
 
-export default reposSlice.reducer;
+export const selectRepositiories = state => selectPersonalHomepageState(state).repositiories;
+export const selectLoading = state => selectPersonalHomepageState(state).loading;
+export const selectError = state => selectPersonalHomepageState(state).error;
+
+export default personalHomepageSlice.reducer;

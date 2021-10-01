@@ -1,17 +1,17 @@
-import { call, takeEvery, put, delay } from "redux-saga/effects";
-import { getApiData } from "./getApiData";
-import { fetchRepos, fetchReposError, fetchReposSuccess } from "./personalHomepageSlice";
+import { call, takeLatest, put, delay } from "redux-saga/effects";
+import { getRepositories } from "./personalHomepageAPI";
+import { fetchRepositories, fetchRepositoriesError, fetchRepositoriesSuccess } from "./personalHomepageSlice";
 
-function* fetchReposHandler() {
+function* fetchRepositoriesHandler({ payload: username }) {
   try {
     yield delay(1000);
-    const data = yield call(getApiData);
-    yield put(fetchReposSuccess(data));
+    const repositiories = yield call(getRepositories, username);
+    yield put(fetchRepositoriesSuccess(repositiories));
   } catch (error) {
-    yield put(fetchReposError());
+    yield put(fetchRepositoriesError());
   }
 }
 
-export function* watchFetchRepos() {
-  yield takeEvery(fetchRepos.type, fetchReposHandler);
+export function* personalHomepageSaga() {
+  yield takeLatest(fetchRepositories.type, fetchRepositoriesHandler);
 }
