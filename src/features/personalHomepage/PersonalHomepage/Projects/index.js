@@ -3,16 +3,16 @@ import { useDispatch, useSelector } from "react-redux";
 import { StatusChecker } from "../StatusChecker";
 import Teil from "../Teil";
 import { Wrapper } from "./styled";
-import { fetchRepositiories, selectError, selectLoading, selectRepositiories } from "../../personalHomepageSlice";
+import { fetchRepositories, selectError, selectLoading, selectRepositories } from "../../personalHomepageSlice";
 
 const Projects = () => {
   const dispatch = useDispatch();
   const isLoading = useSelector(selectLoading);
   const isError = useSelector(selectError);
-  const repos = useSelector(selectRepositiories);
+  const repos = useSelector(selectRepositories);
 
   useEffect(() => {
-    dispatch(fetchRepositiories());
+    dispatch(fetchRepositories());
   }, [dispatch]);
 
   return (

@@ -31,7 +31,7 @@ export const {
 
 const selectPersonalHomepageState = state => state.personalHomepage;
 
-export const selectRepositiories = state => selectPersonalHomepageState(state).repositiories;
+export const selectRepositories = state => selectPersonalHomepageState(state).repositiories;
 export const selectLoading = state => selectPersonalHomepageState(state).loading;
 export const selectError = state => selectPersonalHomepageState(state).error;
 

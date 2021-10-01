@@ -1,7 +1,7 @@
 import { Normalize } from "styled-normalize";
 import { ThemeProvider } from "styled-components";
-import { GlobalStyle } from './core/App/GlobalStyle';
-import { themeDark, themeLight } from "./core/App/theme";
+import { GlobalStyle } from './GlobalStyle';
+import { themeDark, themeLight } from "./theme";
 import PersonalHomepage from "../../features/personalHomepage/PersonalHomepage";
 import { useSelector } from "react-redux";
 import { selectIsDarkTheme } from "../../common/themeSlice";
