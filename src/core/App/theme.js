@@ -25,7 +25,7 @@ export const themeLight = {
     mainAccent: colorNames.scinceBlue,
     lightGray: colorNames.mercury,
     background: colorNames.whiteLilac,
-    sectionBackground: colorNames.mineShaftTransparent,
+    sectionBackground: colorNames.white,
   },
 };
 
@@ -37,5 +37,6 @@ export const themeDark = {
     white: colorNames.white,
     mainAccent: colorNames.dodgerBlue,
     background: colorNames.mineShaft,
+    sectionBackground: colorNames.mineShaftTransparent,
   },
 };
