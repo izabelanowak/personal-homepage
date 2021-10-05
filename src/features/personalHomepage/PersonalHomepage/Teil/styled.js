@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: ${({ theme }) => theme.colors.sectionBackground};
-  border: 6px solid rgba(209, 213, 218, 0.3);
-  box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
+  background-color: ${({ theme }) => theme.colors.teil.background};
+  border: 6px solid ${({ theme }) => theme.colors.teil.border};
+  box-shadow: ${({ theme }) => theme.colors.teil.boxShadow};
   border-radius: 4px;
   padding: 56px;
   display: flex;
   flex-direction: column;
 
   &:hover{
-      border: 6px solid rgba(3, 102, 214, 0.2);
+      border: 6px solid ${({ theme }) => theme.colors.teil.hover};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
@@ -25,7 +25,7 @@ export const Header = styled.h3`
   font-weight: bold;
   font-size: 24px;
   line-height: 1.2;
-  color: ${({ theme }) => theme.colors.mainAccent};
+  color: ${({ theme }) => theme.colors.teil.title};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 16px;

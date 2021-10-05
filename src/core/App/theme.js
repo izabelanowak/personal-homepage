@@ -10,8 +10,10 @@ const colorNames = {
   anakiwa: "#8CC2FF",
   dodgerBlue: "#2188FF",
   scinceBlue: "#0366D6",
-  scienceBlueTransparent: "rgba(209, 213, 218, 0.3)",
+  scienceBlueTransparent: "rgba(209, 213, 218, 0.1)",
   parsleyTransparent: "rgba(20, 70, 32, 0.2)",
+  lightBlue: "rgba(3, 102, 214, 0.2)",
+  darkBlue: "rgba(3, 102, 214, 0.5)",
 };
 
 const common = {
@@ -41,7 +43,13 @@ export const themeLight = {
         active: `inset 0px 2px 0px ${colorNames.parsleyTransparent}`,
       }
     },
-
+    teil: {
+      background: colorNames.white,
+      border: colorNames.ironTransparent,
+      boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
+      hover: colorNames.lightBlue,
+      title: colorNames.scinceBlue,
+    },
   },
 };
 
@@ -64,6 +72,13 @@ export const themeDark = {
         hover: `2px -2px 0px ${colorNames.shipCove}, -2px 2px 0px ${colorNames.shipCove}, 2px 2px 0px ${colorNames.shipCove}, -2px -2px 0px ${colorNames.shipCove}`,
         active: `inset 0px 2px 0px ${colorNames.parsleyTransparent}`,
       }
+    },
+    teil: {
+      background: colorNames.mineShaftTransparent,
+      border: colorNames.scienceBlueTransparent,
+      boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
+      hover: colorNames.darkBlue,
+      title: colorNames.white,
     },
   },
 };
