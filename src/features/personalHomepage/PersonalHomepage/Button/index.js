@@ -7,7 +7,7 @@ export const Button = styled.button`
   padding: 12px 16px;
   background: ${({ theme }) => theme.colors.mainAccent};
   color: ${({ theme }) => theme.colors.white};
-  border: 1px solid rgba(209, 213, 218, 0.3);
+  border: 1px solid ${({ theme }) => theme.colors.button.border};
   border-radius: 4px;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -15,11 +15,11 @@ export const Button = styled.button`
   align-items: center;
 
   &:hover {
-      box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
+      box-shadow: ${({ theme }) => theme.colors.button.boxShadow.hover};
   }
 
   &:active {
-      box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
+      box-shadow: ${({ theme }) => theme.colors.button.boxShadow.active};
   }
 
   ${({ error }) => error && css`

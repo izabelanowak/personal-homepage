@@ -20,7 +20,8 @@ export const Title = styled.header`
   font-size: 30px;
   padding: 0;
   padding-bottom: 16px;
-  border-bottom: 1px solid ${({ theme }) => theme.colors.lightGray};
+  color: ${({ theme }) => theme.colors.title};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.divider};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 18px;
