@@ -8,9 +8,10 @@ export const Wrapper = styled.div`
   padding: 56px;
   display: flex;
   flex-direction: column;
+  transition: 0.3s;
 
   &:hover{
-      border: 6px solid ${({ theme }) => theme.colors.teil.hover};
+      border-color: ${({ theme }) => theme.colors.teil.hover};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {

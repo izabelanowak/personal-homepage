@@ -7,6 +7,7 @@ export const GitHubLogo = styled(GitHubLogoLM)`
   height: 48px;
   margin-right: 24px;
   fill: ${({ theme }) => theme.colors.textPrimary};
+  transition: 0.3s;
 
   &:hover {
     fill: ${({ theme }) => theme.colors.mainAccent};
@@ -24,6 +25,7 @@ export const LinkedinLogo = styled(LinkedinLogoLM)`
   height: 48px;
   margin-right: 24px;
   fill: ${({ theme }) => theme.colors.textPrimary};
+  transition: 0.3s;
 
   &:hover {
     fill: ${({ theme }) => theme.colors.mainAccent};

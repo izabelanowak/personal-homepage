@@ -36,6 +36,7 @@ export const Title = styled.header`
   font-size: 38px;
   line-height: 1.2;
   color: ${({ theme }) => theme.colors.textPrimary};
+  transition: color 0.3s;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 22px;

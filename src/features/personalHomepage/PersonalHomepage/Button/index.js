@@ -13,6 +13,7 @@ export const Button = styled.button`
   grid-template-columns: auto 1fr;
   grid-gap: 19px;
   align-items: center;
+  transition: 0.3s;
 
   &:hover {
       box-shadow: ${({ theme }) => theme.colors.button.boxShadow.hover};
