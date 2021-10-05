@@ -57,4 +57,11 @@ export const Label = styled.span`
 export const Link = styled.a`
   color: ${({ theme }) => theme.colors.mainAccent};
   line-height: 1.4;
+  border-bottom: 1px solid ${({ theme }) => theme.colors.mainAccent};
+  opacity: 0.8;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 1;
+  }
 `;
