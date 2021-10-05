@@ -25,6 +25,7 @@ export const Title = styled.h2`
   font-size: 30px;
   line-height: 1.2;
   margin: 0 0 8px 0;
+  color: ${({ theme }) => theme.colors.textPrimary};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 18px;
@@ -36,6 +37,7 @@ export const Paragraph = styled.p`
   font-size: 20px;
   line-height: 1.4;
   margin: 0 0 24px 0;
+  color: ${({ theme }) => theme.colors.textPrimary};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     font-size: 17px;
