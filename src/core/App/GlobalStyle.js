@@ -21,6 +21,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${({ theme }) => theme.colors.background};
     padding: 16px;
 		overflow-wrap: anywhere;
+    transition: background 0.3s;
   }
 
   a {
