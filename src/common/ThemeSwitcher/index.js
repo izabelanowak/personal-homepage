@@ -12,7 +12,7 @@ const ThemeSwitcher = () => {
   return (
     <Wrapper>
       <Label>
-        {isDarkTheme ? "Dark mode on" : "Dark mode off"}
+        Dark mode {isDarkTheme ? "on" : "off"}
       </Label>
       <Button onClick={() => dispatch(toogleTheme())}>
         {<img src={isDarkTheme ? darkModeButton : lightModeButton} alt="theme switcher" />}
