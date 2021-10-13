@@ -9,8 +9,6 @@ export const Label = styled.span`
   font-weight: bold;
   font-size: 12px;
   line-height: 16px;
-  display: flex;
-  align-items: center;
   text-transform: uppercase;
   color: ${({ theme }) => theme.colors.textSecondary};
 
