@@ -19,6 +19,19 @@ export const Label = styled.span`
     }
 `;
 
+export const Box = styled.span`
+  background: ${({ theme }) => theme.colors.themeSwitch.background};
+  border: 1px solid;
+  padding: 3px;
+  border-radius: 12px;
+  width: 48px;
+  display: flex;
+`;
+
+export const IconWrapper = styled.div``;
+export const Icon = styled.div``;
+
+
 export const Button = styled.button`
   border: none;
   background: transparent;
