@@ -1,5 +1,4 @@
-import { useSelector } from "react-redux";
-import { useDispatch } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { selectIsDarkTheme, toogleTheme } from "../themeSlice";
 import { Box, Button, Icon, IconWrapper, Label, Wrapper } from "./styled";
 
