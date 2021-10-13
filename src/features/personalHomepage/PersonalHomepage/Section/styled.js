@@ -38,9 +38,13 @@ export const List = styled.ul`
   grid-template-columns: repeat(3,1fr);
   grid-gap: 8px;
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
+      grid-template-columns: repeat(2,1fr);
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-      grid-template-columns: 1fr;
-      padding: 12px 0 0 16px;
+    grid-template-columns: 1fr;
+    padding: 12px 0 0 16px;
   }
 `;
 
