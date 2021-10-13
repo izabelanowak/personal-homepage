@@ -5,6 +5,16 @@ export const Wrapper = styled.div`
   justify-content: flex-end;
 `;
 
+export const Button = styled.button`
+  cursor: pointer;
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  color: inherit;
+  outline-offset: 8px;
+`;
+
 export const Label = styled.span`
   font-weight: bold;
   font-size: 12px;
@@ -28,9 +38,3 @@ export const Box = styled.span`
 
 export const IconWrapper = styled.div``;
 export const Icon = styled.div``;
-
-
-export const Button = styled.button`
-  border: none;
-  background: transparent;
-`;
