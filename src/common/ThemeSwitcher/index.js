@@ -1,9 +1,7 @@
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { selectIsDarkTheme, toogleTheme } from "../themeSlice";
-import darkModeButton from "./darkModeButton.svg";
-import lightModeButton from "./lightModeButton.svg";
-import { Button, Label, Wrapper } from "./styled";
+import { Box, Button, Icon, IconWrapper, Label, Wrapper } from "./styled";
 
 const ThemeSwitcher = () => {
   const dispatch = useDispatch();
@@ -11,11 +9,15 @@ const ThemeSwitcher = () => {
 
   return (
     <Wrapper>
-      <Label>
-        Dark mode {isDarkTheme ? "on" : "off"}
-      </Label>
       <Button onClick={() => dispatch(toogleTheme())}>
-        {<img src={isDarkTheme ? darkModeButton : lightModeButton} alt="theme switcher" />}
+        <Label>
+          Dark mode {isDarkTheme ? "on" : "off"}
+        </Label>
+        <Box>
+          <IconWrapper moveToRight={isDarkTheme}>
+            <Icon />
+          </IconWrapper>
+        </Box>
       </Button>
     </Wrapper>
   );
