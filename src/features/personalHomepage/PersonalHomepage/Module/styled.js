@@ -68,13 +68,14 @@ export const Description = styled.p`
   }
 
   ${({ footer }) => footer && css`
+    margin-bottom: 0;
     font-size: 18px;
     color: ${({ theme }) => theme.colors.textPrimary};
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
       font-size: 14px;
-      margin: 12px 0 40px 0;
-  }
+      margin-top: 12px;
+    }
     }
   `}
 `;
