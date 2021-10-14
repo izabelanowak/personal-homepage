@@ -23,14 +23,14 @@ export const Item = styled.li`
 `;
 
 export const Link = styled.a`
-
+ color: currentColor;
 `;
 
 export const styleIcon = Icon => styled(Icon)`
   width: 48px;
   height: 48px;
   fill: ${({ theme }) => theme.colors.textPrimary};
-  transition: color 0.3s;
+  transition: 0.3s;
 
   &:hover {
     fill: ${({ theme }) => theme.colors.mainAccent};
