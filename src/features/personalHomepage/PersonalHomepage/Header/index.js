@@ -12,7 +12,8 @@ const Header = () => (
       <Module
         text="This is"
         title="Izabela Nowak"
-        description="Hi! I'm future Frontend Developer with passion about CSS, React and in love with Styled-components."
+        description="I am a frontend developer with passion about CSS, React and in love with Styled-components. I am conscientious and I am not afraid of challenges.
+        I like to solve logical problems. I have experience working in a group and feel comfortable writing the code myself."
         extraContent={
           <a href={`mailto: ${email}`}>
             <Button><MessageIcon />Hire me</Button>
