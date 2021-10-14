@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ReactComponent as Error } from "./Danger.svg";
 
 export const Wrapper = styled.div`
   margin: 0 auto;
@@ -11,6 +12,10 @@ export const Wrapper = styled.div`
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     margin-top: 32px;
   }
+`;
+
+export const ErrorIcon = styled(Error)`
+  stroke: ${({ theme }) => theme.colors.textPrimary};
 `;
 
 export const Title = styled.h2`

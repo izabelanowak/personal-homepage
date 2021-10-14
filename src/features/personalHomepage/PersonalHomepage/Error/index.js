@@ -1,7 +1,6 @@
 import { Button } from "../Button";
 import { githubURL, username } from "../personalData";
-import { ReactComponent as ErrorIcon } from "./Danger.svg";
-import { Info, Title, Wrapper } from "./styled";
+import { ErrorIcon, Info, Title, Wrapper } from "./styled";
 
 export const Error = () => {
   return (
