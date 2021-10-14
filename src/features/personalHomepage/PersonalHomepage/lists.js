@@ -4,31 +4,29 @@ export const skillset = [
   "CSS BEM convention",
   "CSS Grid",
   "CSS FlexBox",
-  "Media Queries",
+  "Responsive Web Design",
   "JavaScript (ES6+)",
-  "Immutability",
   "React",
-  "Create-react-app",
-  "Webpack",
-  "Babel",
   "React Hooks",
-  "localStorage",
-  "Styled-components",
   "custom Hooks",
+  "Git",
+  "Styled-components",
   "Working with API (fetch, axios)",
   "Redux",
   "Redux Toolkit",
   "Redux-Saga",
   "React Router",
-  "Markdown",
-  "Teamwork",
   "Error handling",
-  "Promises, Async/Await",
-  "Git",
-  "GitHub Pull Requests & Review",
+  "Promises, async/await",
+  "Markdown",
+];
+
+export const tools = [
+  "Visual Studio Code",
   "Trello",
-  "Scrum",
-  "NPM",
+  "Figma",
+  "Slack",
+  "GitHub Pull Requests & Review",
 ];
 
 export const whatToLearnNext = [
@@ -38,4 +36,11 @@ export const whatToLearnNext = [
   "Sass/Less",
   "Bootstrap",
   "jQuery",
+  "React Contex",
+];
+
+export const languages = [
+  "Polish - native",
+  "English - level B2",
+  "German - level B1",
 ];
