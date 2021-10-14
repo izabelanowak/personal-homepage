@@ -20,7 +20,7 @@ export const Button = styled.button`
 export const Label = styled.span`
   font-weight: bold;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 1.3;
   margin-right: 12px;
   text-transform: uppercase;
   color: ${({ theme }) => theme.colors.textSecondary};
