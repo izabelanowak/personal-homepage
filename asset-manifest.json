@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.f42713f5.chunk.js",
-    "main.js.map": "/personal-homepage/static/js/main.f42713f5.chunk.js.map",
+    "main.js": "/personal-homepage/static/js/main.603efae0.chunk.js",
+    "main.js.map": "/personal-homepage/static/js/main.603efae0.chunk.js.map",
     "runtime-main.js": "/personal-homepage/static/js/runtime-main.b6ef67fc.js",
     "runtime-main.js.map": "/personal-homepage/static/js/runtime-main.b6ef67fc.js.map",
-    "static/js/2.89f9c677.chunk.js": "/personal-homepage/static/js/2.89f9c677.chunk.js",
-    "static/js/2.89f9c677.chunk.js.map": "/personal-homepage/static/js/2.89f9c677.chunk.js.map",
+    "static/js/2.0fa64eb7.chunk.js": "/personal-homepage/static/js/2.0fa64eb7.chunk.js",
+    "static/js/2.0fa64eb7.chunk.js.map": "/personal-homepage/static/js/2.0fa64eb7.chunk.js.map",
     "static/js/3.6a78c589.chunk.js": "/personal-homepage/static/js/3.6a78c589.chunk.js",
     "static/js/3.6a78c589.chunk.js.map": "/personal-homepage/static/js/3.6a78c589.chunk.js.map",
     "index.html": "/personal-homepage/index.html",
-    "static/js/2.89f9c677.chunk.js.LICENSE.txt": "/personal-homepage/static/js/2.89f9c677.chunk.js.LICENSE.txt",
+    "static/js/2.0fa64eb7.chunk.js.LICENSE.txt": "/personal-homepage/static/js/2.0fa64eb7.chunk.js.LICENSE.txt",
     "static/media/Danger.a713ca87.svg": "/personal-homepage/static/media/Danger.a713ca87.svg",
-    "static/media/GitHubLM.e9fc5f44.svg": "/personal-homepage/static/media/GitHubLM.e9fc5f44.svg",
-    "static/media/LinkedinLM.fd0fc1ba.svg": "/personal-homepage/static/media/LinkedinLM.fd0fc1ba.svg",
-    "static/media/darkModeButton.165bbd71.svg": "/personal-homepage/static/media/darkModeButton.165bbd71.svg",
+    "static/media/github.12fd837b.svg": "/personal-homepage/static/media/github.12fd837b.svg",
     "static/media/icon-spinner.88a075cf.svg": "/personal-homepage/static/media/icon-spinner.88a075cf.svg",
     "static/media/iza.9f23c59e.jpg": "/personal-homepage/static/media/iza.9f23c59e.jpg",
-    "static/media/lightModeButton.52c00c0f.svg": "/personal-homepage/static/media/lightModeButton.52c00c0f.svg",
-    "static/media/message.5e558b62.svg": "/personal-homepage/static/media/message.5e558b62.svg"
+    "static/media/linkedin.3fc04cb1.svg": "/personal-homepage/static/media/linkedin.3fc04cb1.svg",
+    "static/media/message.5e558b62.svg": "/personal-homepage/static/media/message.5e558b62.svg",
+    "static/media/sun.422db4c9.svg": "/personal-homepage/static/media/sun.422db4c9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b6ef67fc.js",
-    "static/js/2.89f9c677.chunk.js",
-    "static/js/main.f42713f5.chunk.js"
+    "static/js/2.0fa64eb7.chunk.js",
+    "static/js/main.603efae0.chunk.js"
   ]
 }
