@@ -1,4 +1,4 @@
-import { skillset, whatToLearnNext } from "./lists";
+import { languages, skillset, tools, whatToLearnNext } from "./lists";
 import ThemeSwitcher from "../../../common/ThemeSwitcher";
 import Portfolio from "./Portfolio";
 import Section from "./Section";
@@ -10,7 +10,6 @@ import { MainContainer } from "./MainContainer";
 const PersonalHomepage = () => {
 
   return (
-    <>
       <MainContainer>
         <ThemeSwitcher />
         <Header />
@@ -19,15 +18,22 @@ const PersonalHomepage = () => {
           list={skillset}
         />
         <Section
+          title="Tools I used"
+          list={tools}
+        />
+        <Section
           title="What I want to learn next"
           list={whatToLearnNext}
+        />
+         <Section
+          title="Languages"
+          list={languages}
         />
         <Portfolio>
           <Projects />
         </Portfolio>
         <Footer />
       </MainContainer>
-    </>
   );
 };
 
