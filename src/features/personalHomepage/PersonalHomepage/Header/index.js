@@ -2,7 +2,7 @@ import { Button } from "../Button";
 import Module from "../Module";
 import { Image, StyledHeader, Wrapper } from "./styled";
 import { ReactComponent as MessageIcon } from "./message.svg";
-import photo from "./iza.jpg";
+import photo from "./IzabelaNowak.png";
 import { email } from "../personalData";
 
 const Header = () => (
