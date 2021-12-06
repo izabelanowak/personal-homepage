@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.f110ee8c.chunk.js",
-    "main.js.map": "/personal-homepage/static/js/main.f110ee8c.chunk.js.map",
+    "main.js": "/personal-homepage/static/js/main.2f7299cc.chunk.js",
+    "main.js.map": "/personal-homepage/static/js/main.2f7299cc.chunk.js.map",
     "runtime-main.js": "/personal-homepage/static/js/runtime-main.b6ef67fc.js",
     "runtime-main.js.map": "/personal-homepage/static/js/runtime-main.b6ef67fc.js.map",
     "static/js/2.d82a3e47.chunk.js": "/personal-homepage/static/js/2.d82a3e47.chunk.js",
@@ -11,9 +11,9 @@
     "index.html": "/personal-homepage/index.html",
     "static/js/2.d82a3e47.chunk.js.LICENSE.txt": "/personal-homepage/static/js/2.d82a3e47.chunk.js.LICENSE.txt",
     "static/media/Danger.67704290.svg": "/personal-homepage/static/media/Danger.67704290.svg",
+    "static/media/IzabelaNowak.b7370ffd.png": "/personal-homepage/static/media/IzabelaNowak.b7370ffd.png",
     "static/media/github.12fd837b.svg": "/personal-homepage/static/media/github.12fd837b.svg",
     "static/media/icon-spinner.88a075cf.svg": "/personal-homepage/static/media/icon-spinner.88a075cf.svg",
-    "static/media/iza.9f23c59e.jpg": "/personal-homepage/static/media/iza.9f23c59e.jpg",
     "static/media/linkedin.3fc04cb1.svg": "/personal-homepage/static/media/linkedin.3fc04cb1.svg",
     "static/media/message.5e558b62.svg": "/personal-homepage/static/media/message.5e558b62.svg",
     "static/media/sun.422db4c9.svg": "/personal-homepage/static/media/sun.422db4c9.svg"
@@ -21,6 +21,6 @@
   "entrypoints": [
     "static/js/runtime-main.b6ef67fc.js",
     "static/js/2.d82a3e47.chunk.js",
-    "static/js/main.f110ee8c.chunk.js"
+    "static/js/main.2f7299cc.chunk.js"
   ]
 }
